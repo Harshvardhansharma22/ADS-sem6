@@ -1,3 +1,5 @@
+// 1) Prefix Sum
+
 // public class Day2 {
 //     public static void main(String[] args){
 //         int []arr={2,4,1,3,5};
@@ -18,7 +20,7 @@
 //     }
 // }
 
-//2)
+//2) Equilibrium Index
 
 // public class Day2 {
 //     public static void main(String[] args) {
@@ -46,7 +48,8 @@
 // }
 
 
-//3)
+//3)   
+
 // public class Day2{
 //     public static void main(String[]args){
 //         int [] arr={1,3,4,-1,-5,2,6,0};
