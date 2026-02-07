@@ -75,21 +75,21 @@
 
 // 4) Method Overriding
 
-public class Day3{
-    public static void main(String[]args){
-        Child c =new Child();
-        c.details();
-    }
-}
-class Parent{
-    void details(){
-        System.out.println("We are on Mission");
-    }
-}
-class Child extends Parent{
-    @Override
-    void details(){
-        System.out.println("Mission Completed");
-    }
+// public class Day3{
+//     public static void main(String[]args){
+//         Child c =new Child();
+//         c.details();
+//     }
+// }
+// class Parent{
+//     void details(){
+//         System.out.println("We are on Mission");
+//     }
+// }
+// class Child extends Parent{
+//     @Override
+//     void details(){
+//         System.out.println("Mission Completed");
+//     }
     
-}
+// }
