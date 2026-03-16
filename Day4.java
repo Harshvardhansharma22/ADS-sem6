@@ -36,3 +36,42 @@
 //         System.out.println("Maximum sum of circular subarray is "+Math.max(maxSum, totalSum-minSum));
 //     }
 // }
+
+//3) Validate Binary Search Tree
+
+// class Solution {
+
+//     public boolean isValidBST(TreeNode root) {
+//         return validate(root, Long.MIN_VALUE, Long.MAX_VALUE);
+//     }
+
+//     public boolean validate(TreeNode node, long min, long max) {
+//         if (node == null)
+//             return true;
+
+//         if (node.val <= min || node.val >= max)
+//             return false;
+
+//         return validate(node.left, min, node.val) &&
+//                validate(node.right, node.val, max);
+//     }
+// }
+
+
+//4)
+
+
+// class Solution {
+//     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+
+//         if (p.val < root.val && q.val < root.val) {
+//             return lowestCommonAncestor(root.left, p, q);
+//         }
+
+//         if (p.val > root.val && q.val > root.val) {
+//             return lowestCommonAncestor(root.right, p, q);
+//         }
+
+//         return root;
+//     }
+// }
